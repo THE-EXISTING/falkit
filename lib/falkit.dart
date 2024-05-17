@@ -7,3 +7,5 @@ export 'package:extended_image/extended_image.dart';
 
 export 'widgets/widgets.dart';
 export 'extensions/extensions.dart';
+export 'animations/animations.dart';
+export 'styles/styles.dart';

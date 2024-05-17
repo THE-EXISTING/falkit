@@ -12,7 +12,7 @@ dependencies:
   faltool:
     git:
       url: https://github.com/THE-EXISTING/faltool.git
-      ref: V1.0.1
+      ref: 1.0.2
 
   #PLATFORM: All
   gap: ^3.0.1
