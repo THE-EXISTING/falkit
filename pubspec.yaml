@@ -1,0 +1,28 @@
+name: falkit
+description: A new Flutter package project.
+version: 1.0.0
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  faltool:
+    git:
+      url: https://github.com/THE-EXISTING/faltool.git
+      ref: V1.0.1
+
+  #PLATFORM: All
+  gap: ^3.0.1
+  shimmer: ^3.0.0
+  flutter_svg: ^2.0.10+1
+  extended_image: ^8.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
