@@ -11,7 +11,7 @@ extension AssetImages on String {
         package: package,
       );
 
-  Widget toWidgetImage({
+  Widget toImageWidget({
     double? width,
     double? height,
     BoxFit? fit,
