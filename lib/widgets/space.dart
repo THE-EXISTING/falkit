@@ -5,33 +5,33 @@ class Space {
 
   static get empty => const SizedBox();
 
-  static StatelessWidget gap(double gap) => Gap(gap);
+  static Widget gap(double gap) => Gap(gap);
 
-  static StatelessWidget get gap2 => const Gap(2.0);
+  static Widget get gap2 => const Gap(2.0);
 
-  static StatelessWidget get gap4 => const Gap(4.0);
+  static Widget get gap4 => const Gap(4.0);
 
-  static StatelessWidget get gap8 => const Gap(8.0);
+  static Widget get gap8 => const Gap(8.0);
 
-  static StatelessWidget get gap12 => const Gap(12.0);
+  static Widget get gap12 => const Gap(12.0);
 
-  static StatelessWidget get gap16 => const Gap(16.0);
+  static Widget get gap16 => const Gap(16.0);
 
-  static StatelessWidget get gap20 => const Gap(20.0);
+  static Widget get gap20 => const Gap(20.0);
 
-  static StatelessWidget get gap24 => const Gap(24.0);
+  static Widget get gap24 => const Gap(24.0);
 
-  static StatelessWidget get gap32 => const Gap(32.0);
+  static Widget get gap32 => const Gap(32.0);
 
-  static StatelessWidget get gap40 => const Gap(40.0);
+  static Widget get gap40 => const Gap(40.0);
 
-  static StatelessWidget get gap48 => const Gap(48.0);
+  static Widget get gap48 => const Gap(48.0);
 
-  static StatelessWidget get gap56 => const Gap(56.0);
+  static Widget get gap56 => const Gap(56.0);
 
-  static StatelessWidget get gap64 => const Gap(64.0);
+  static Widget get gap64 => const Gap(64.0);
 
-  static StatelessWidget get gap72 => const Gap(72.0);
+  static Widget get gap72 => const Gap(72.0);
 
   ///==============///
 
