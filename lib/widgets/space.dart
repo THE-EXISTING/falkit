@@ -45,6 +45,8 @@ class Space {
 
   ///==============///
 
+  static EdgeInsetsGeometry insetAll(double value) => EdgeInsets.all(value);
+
   static EdgeInsetsGeometry insetOnly({
     double left = 0.0,
     double top = 0.0,
@@ -52,6 +54,12 @@ class Space {
     double bottom = 0.0,
   }) =>
       EdgeInsets.only(left: left, top: top, right: right, bottom: bottom);
+
+  static EdgeInsetsGeometry insetSymmetric({
+    double horizontal = 0.0,
+    double vertical = 0.0,
+  }) =>
+      EdgeInsets.symmetric(horizontal: horizontal, vertical: vertical);
 
   static EdgeInsetsGeometry get insetZero => const EdgeInsets.all(0.0);
 
@@ -331,7 +339,7 @@ class Space {
   static EdgeInsetsGeometry get insetTop72 => const EdgeInsets.only(top: 72.0);
 
   ///==============///
-  ///
+
   static EdgeInsetsGeometry get insetBottom1 =>
       const EdgeInsets.only(bottom: 1.0);
 
