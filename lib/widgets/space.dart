@@ -7,15 +7,25 @@ class Space {
 
   static Widget gap(double gap) => Gap(gap);
 
+  static Widget get gap1 => const Gap(1.0);
+
   static Widget get gap2 => const Gap(2.0);
 
   static Widget get gap4 => const Gap(4.0);
 
+  static Widget get gap6 => const Gap(6.0);
+
   static Widget get gap8 => const Gap(8.0);
+
+  static Widget get gap10 => const Gap(10.0);
 
   static Widget get gap12 => const Gap(12.0);
 
+  static Widget get gap14 => const Gap(14.0);
+
   static Widget get gap16 => const Gap(16.0);
+
+  static Widget get gap18 => const Gap(18.0);
 
   static Widget get gap20 => const Gap(20.0);
 
@@ -45,9 +55,13 @@ class Space {
 
   static EdgeInsetsGeometry get insetZero => const EdgeInsets.all(0.0);
 
+  static EdgeInsetsGeometry get insetAll1 => const EdgeInsets.all(1.0);
+
   static EdgeInsetsGeometry get insetAll2 => const EdgeInsets.all(2.0);
 
   static EdgeInsetsGeometry get insetAll4 => const EdgeInsets.all(4.0);
+
+  static EdgeInsetsGeometry get insetAll6 => const EdgeInsets.all(6.0);
 
   static EdgeInsetsGeometry get insetAll8 => const EdgeInsets.all(8.0);
 
@@ -55,7 +69,11 @@ class Space {
 
   static EdgeInsetsGeometry get insetAll12 => const EdgeInsets.all(12.0);
 
+  static EdgeInsetsGeometry get insetAll14 => const EdgeInsets.all(14.0);
+
   static EdgeInsetsGeometry get insetAll16 => const EdgeInsets.all(16.0);
+
+  static EdgeInsetsGeometry get insetAll18 => const EdgeInsets.all(18.0);
 
   static EdgeInsetsGeometry get insetAll20 => const EdgeInsets.all(20.0);
 
@@ -73,20 +91,35 @@ class Space {
 
   ///==============///
 
+  static EdgeInsetsGeometry get insetVertical1 =>
+      const EdgeInsets.symmetric(vertical: 1.0);
+
   static EdgeInsetsGeometry get insetVertical2 =>
       const EdgeInsets.symmetric(vertical: 2.0);
 
   static EdgeInsetsGeometry get insetVertical4 =>
       const EdgeInsets.symmetric(vertical: 4.0);
 
+  static EdgeInsetsGeometry get insetVertical6 =>
+      const EdgeInsets.symmetric(vertical: 6.0);
+
   static EdgeInsetsGeometry get insetVertical8 =>
       const EdgeInsets.symmetric(vertical: 8.0);
+
+  static EdgeInsetsGeometry get insetVertical10 =>
+      const EdgeInsets.symmetric(vertical: 10.0);
 
   static EdgeInsetsGeometry get insetVertical12 =>
       const EdgeInsets.symmetric(vertical: 12.0);
 
+  static EdgeInsetsGeometry get insetVertical14 =>
+      const EdgeInsets.symmetric(vertical: 14.0);
+
   static EdgeInsetsGeometry get insetVertical16 =>
       const EdgeInsets.symmetric(vertical: 16.0);
+
+  static EdgeInsetsGeometry get insetVertical18 =>
+      const EdgeInsets.symmetric(vertical: 18.0);
 
   static EdgeInsetsGeometry get insetVertical20 =>
       const EdgeInsets.symmetric(vertical: 20.0);
@@ -111,20 +144,35 @@ class Space {
 
   ///==============///
 
+  static EdgeInsetsGeometry get insetHorizontal1 =>
+      const EdgeInsets.symmetric(horizontal: 1.0);
+
   static EdgeInsetsGeometry get insetHorizontal2 =>
       const EdgeInsets.symmetric(horizontal: 2.0);
 
   static EdgeInsetsGeometry get insetHorizontal4 =>
       const EdgeInsets.symmetric(horizontal: 4.0);
 
+  static EdgeInsetsGeometry get insetHorizontal6 =>
+      const EdgeInsets.symmetric(horizontal: 6.0);
+
   static EdgeInsetsGeometry get insetHorizontal8 =>
       const EdgeInsets.symmetric(horizontal: 8.0);
+
+  static EdgeInsetsGeometry get insetHorizontal10 =>
+      const EdgeInsets.symmetric(horizontal: 10.0);
 
   static EdgeInsetsGeometry get insetHorizontal12 =>
       const EdgeInsets.symmetric(horizontal: 12.0);
 
+  static EdgeInsetsGeometry get insetHorizontal14 =>
+      const EdgeInsets.symmetric(horizontal: 14.0);
+
   static EdgeInsetsGeometry get insetHorizontal16 =>
       const EdgeInsets.symmetric(horizontal: 16.0);
+
+  static EdgeInsetsGeometry get insetHorizontal18 =>
+      const EdgeInsets.symmetric(horizontal: 18.0);
 
   static EdgeInsetsGeometry get insetHorizontal20 =>
       const EdgeInsets.symmetric(horizontal: 20.0);
@@ -148,18 +196,30 @@ class Space {
       const EdgeInsets.symmetric(horizontal: 72.0);
 
   ///==============///
+  static EdgeInsetsGeometry get insetLeft1 => const EdgeInsets.only(left: 1.0);
 
   static EdgeInsetsGeometry get insetLeft2 => const EdgeInsets.only(left: 2.0);
 
   static EdgeInsetsGeometry get insetLeft4 => const EdgeInsets.only(left: 4.0);
 
+  static EdgeInsetsGeometry get insetLeft6 => const EdgeInsets.only(left: 6.0);
+
   static EdgeInsetsGeometry get insetLeft8 => const EdgeInsets.only(left: 8.0);
+
+  static EdgeInsetsGeometry get insetLeft10 =>
+      const EdgeInsets.only(left: 10.0);
 
   static EdgeInsetsGeometry get insetLeft12 =>
       const EdgeInsets.only(left: 12.0);
 
+  static EdgeInsetsGeometry get insetLeft14 =>
+      const EdgeInsets.only(left: 14.0);
+
   static EdgeInsetsGeometry get insetLeft16 =>
       const EdgeInsets.only(left: 16.0);
+
+  static EdgeInsetsGeometry get insetLeft18 =>
+      const EdgeInsets.only(left: 18.0);
 
   static EdgeInsetsGeometry get insetLeft20 =>
       const EdgeInsets.only(left: 20.0);
@@ -183,6 +243,9 @@ class Space {
       const EdgeInsets.only(left: 72.0);
 
   ///==============///
+  ///
+  static EdgeInsetsGeometry get insetRight1 =>
+      const EdgeInsets.only(right: 1.0);
 
   static EdgeInsetsGeometry get insetRight2 =>
       const EdgeInsets.only(right: 2.0);
@@ -190,14 +253,26 @@ class Space {
   static EdgeInsetsGeometry get insetRight4 =>
       const EdgeInsets.only(right: 4.0);
 
+  static EdgeInsetsGeometry get insetRight6 =>
+      const EdgeInsets.only(right: 6.0);
+
   static EdgeInsetsGeometry get insetRight8 =>
       const EdgeInsets.only(right: 8.0);
+
+  static EdgeInsetsGeometry get insetRight10 =>
+      const EdgeInsets.only(right: 10.0);
 
   static EdgeInsetsGeometry get insetRight12 =>
       const EdgeInsets.only(right: 12.0);
 
+  static EdgeInsetsGeometry get insetRight14 =>
+      const EdgeInsets.only(right: 14.0);
+
   static EdgeInsetsGeometry get insetRight16 =>
       const EdgeInsets.only(right: 16.0);
+
+  static EdgeInsetsGeometry get insetRight18 =>
+      const EdgeInsets.only(right: 18.0);
 
   static EdgeInsetsGeometry get insetRight20 =>
       const EdgeInsets.only(right: 20.0);
@@ -221,16 +296,25 @@ class Space {
       const EdgeInsets.only(right: 72.0);
 
   ///==============///
+  static EdgeInsetsGeometry get insetTop1 => const EdgeInsets.only(top: 1.0);
 
   static EdgeInsetsGeometry get insetTop2 => const EdgeInsets.only(top: 2.0);
 
   static EdgeInsetsGeometry get insetTop4 => const EdgeInsets.only(top: 4.0);
 
+  static EdgeInsetsGeometry get insetTop6 => const EdgeInsets.only(top: 6.0);
+
   static EdgeInsetsGeometry get insetTop8 => const EdgeInsets.only(top: 8.0);
+
+  static EdgeInsetsGeometry get insetTop10 => const EdgeInsets.only(top: 10.0);
 
   static EdgeInsetsGeometry get insetTop12 => const EdgeInsets.only(top: 12.0);
 
+  static EdgeInsetsGeometry get insetTop14 => const EdgeInsets.only(top: 14.0);
+
   static EdgeInsetsGeometry get insetTop16 => const EdgeInsets.only(top: 16.0);
+
+  static EdgeInsetsGeometry get insetTop18 => const EdgeInsets.only(top: 18.0);
 
   static EdgeInsetsGeometry get insetTop20 => const EdgeInsets.only(top: 20.0);
 
@@ -247,6 +331,9 @@ class Space {
   static EdgeInsetsGeometry get insetTop72 => const EdgeInsets.only(top: 72.0);
 
   ///==============///
+  ///
+  static EdgeInsetsGeometry get insetBottom1 =>
+      const EdgeInsets.only(bottom: 1.0);
 
   static EdgeInsetsGeometry get insetBottom2 =>
       const EdgeInsets.only(bottom: 2.0);
@@ -254,14 +341,26 @@ class Space {
   static EdgeInsetsGeometry get insetBottom4 =>
       const EdgeInsets.only(bottom: 4.0);
 
+  static EdgeInsetsGeometry get insetBottom6 =>
+      const EdgeInsets.only(bottom: 6.0);
+
   static EdgeInsetsGeometry get insetBottom8 =>
       const EdgeInsets.only(bottom: 8.0);
+
+  static EdgeInsetsGeometry get insetBottom10 =>
+      const EdgeInsets.only(bottom: 10.0);
 
   static EdgeInsetsGeometry get insetBottom12 =>
       const EdgeInsets.only(bottom: 12.0);
 
+  static EdgeInsetsGeometry get insetBottom14 =>
+      const EdgeInsets.only(bottom: 14.0);
+
   static EdgeInsetsGeometry get insetBottom16 =>
       const EdgeInsets.only(bottom: 16.0);
+
+  static EdgeInsetsGeometry get insetBottom18 =>
+      const EdgeInsets.only(bottom: 18.0);
 
   static EdgeInsetsGeometry get insetBottom20 =>
       const EdgeInsets.only(bottom: 20.0);
