@@ -5,7 +5,7 @@ class Space {
 
   static get empty => const SizedBox();
 
-  static Widget box(double gap) => Gap(gap);
+  static Widget box(double gap) => SizedBox(width: gap, height: gap);
 
   static Widget get box1 => const SizedBox(width: 1.0, height: 1.0);
 
