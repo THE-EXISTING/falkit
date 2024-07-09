@@ -5,6 +5,44 @@ class Space {
 
   static get empty => const SizedBox();
 
+  static Widget box(double gap) => Gap(gap);
+
+  static Widget get box1 => const SizedBox(width: 1.0, height: 1.0);
+
+  static Widget get box2 => const SizedBox(width: 2.0, height: 2.0);
+
+  static Widget get box4 => const SizedBox(width: 4.0, height: 4.0);
+
+  static Widget get box6 => const SizedBox(width: 6.0, height: 6.0);
+
+  static Widget get box8 => const SizedBox(width: 8.0, height: 8.0);
+
+  static Widget get box10 => const SizedBox(width: 10.0, height: 10.0);
+
+  static Widget get box12 => const SizedBox(width: 12.0, height: 12.0);
+
+  static Widget get box14 => const SizedBox(width: 14.0, height: 14.0);
+
+  static Widget get box16 => const SizedBox(width: 16.0, height: 16.0);
+
+  static Widget get box18 => const SizedBox(width: 18.0, height: 18.0);
+
+  static Widget get box20 => const SizedBox(width: 20.0, height: 20.0);
+
+  static Widget get box24 => const SizedBox(width: 24.0, height: 24.0);
+
+  static Widget get box32 => const SizedBox(width: 32.0, height: 32.0);
+
+  static Widget get box40 => const SizedBox(width: 40.0, height: 40.0);
+
+  static Widget get box48 => const SizedBox(width: 48.0, height: 48.0);
+
+  static Widget get box56 => const SizedBox(width: 56.0, height: 56.0);
+
+  static Widget get box64 => const SizedBox(width: 64.0, height: 64.0);
+
+  static Widget get box72 => const SizedBox(width: 72.0, height: 72.0);
+
   static Widget gap(double gap) => Gap(gap);
 
   static Widget get gap1 => const Gap(1.0);
