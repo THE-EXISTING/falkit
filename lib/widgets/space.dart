@@ -7,6 +7,8 @@ class Space {
 
   static Widget box(double gap) => SizedBox(width: gap, height: gap);
 
+  static Widget get boxZero => const SizedBox(width: 0.0, height: 0.0);
+
   static Widget get box1 => const SizedBox(width: 1.0, height: 1.0);
 
   static Widget get box2 => const SizedBox(width: 2.0, height: 2.0);
@@ -44,6 +46,8 @@ class Space {
   static Widget get box72 => const SizedBox(width: 72.0, height: 72.0);
 
   static Widget gap(double gap) => Gap(gap);
+
+  static Widget get gapZero => const Gap(0.0);
 
   static Widget get gap1 => const Gap(1.0);
 
