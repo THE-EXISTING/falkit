@@ -1,6 +1,6 @@
 name: falkit
 description: A new Flutter package project.
-version: 1.1.6
+version: 1.1.7
 
 environment:
   sdk: '>=3.4.0 <4.0.0'
@@ -12,7 +12,7 @@ dependencies:
   faltool:
     git:
       url: https://github.com/THE-EXISTING/faltool.git
-      ref: 1.0.12
+      ref: 1.0.13
 
   #PLATFORM: All
   gap: ^3.0.1

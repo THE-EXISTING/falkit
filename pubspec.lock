@@ -165,11 +165,11 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: "1.0.12"
-      resolved-ref: "4aadba9318a018c9f4227b341f93f4f362e5f10a"
+      ref: "1.0.13"
+      resolved-ref: a018f46f03cef30c24b2a18906602c2a0cb72ef4
       url: "https://github.com/THE-EXISTING/faltool.git"
     source: git
-    version: "1.0.12"
+    version: "1.0.13"
   ffi:
     dependency: transitive
     description:
