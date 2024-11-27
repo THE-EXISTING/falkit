@@ -17,7 +17,10 @@ extension SvgIcons on String? {
     SvgTheme? theme,
     ColorFilter? colorFilter,
     Clip clipBehavior = Clip.hardEdge,
-    Color? color,
+    @Deprecated('Use colorFilter instead.') Color? color,
+    @Deprecated('Use colorFilter instead.')
+    BlendMode colorBlendMode = BlendMode.srcIn,
+    @Deprecated('This no longer does anything.') bool cacheColorFilter = false,
   }) =>
       SvgPicture.asset(
         this!,
@@ -34,9 +37,12 @@ extension SvgIcons on String? {
         semanticsLabel: semanticsLabel,
         excludeFromSemantics: excludeFromSemantics,
         theme: theme,
+        clipBehavior: clipBehavior,
         colorFilter: colorFilter ??
             (color != null ? ColorFilter.mode(color, BlendMode.srcIn) : null),
-        clipBehavior: clipBehavior,
+        color: color,
+        colorBlendMode: colorBlendMode,
+        cacheColorFilter: cacheColorFilter,
       );
 
   Widget toSvgIcon({
@@ -54,7 +60,10 @@ extension SvgIcons on String? {
     SvgTheme theme = const SvgTheme(),
     ColorFilter? colorFilter,
     Clip clipBehavior = Clip.hardEdge,
-    Color? color,
+    @Deprecated('Use colorFilter instead.') Color? color,
+    @Deprecated('Use colorFilter instead.')
+    BlendMode colorBlendMode = BlendMode.srcIn,
+    @Deprecated('This no longer does anything.') bool cacheColorFilter = false,
   }) =>
       toSvg(
         key: key,
@@ -71,7 +80,9 @@ extension SvgIcons on String? {
         excludeFromSemantics: excludeFromSemantics,
         theme: theme,
         colorFilter: colorFilter,
-        color: color,
         clipBehavior: clipBehavior,
+        color: color,
+        colorBlendMode: colorBlendMode,
+        cacheColorFilter: cacheColorFilter,
       );
 }
